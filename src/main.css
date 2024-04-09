@@ -1,0 +1,146 @@
+@import "blink.css";
+
+:root {
+  font-family: "Comic Sans MS", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+
+  color: white;
+  background: url("https://i.imgur.com/SHZe50s.gif") fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.rainbow {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pokemon-details {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.pokemon-header {
+  text-align: center;
+}
+
+.pokemon-name {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-body {
+  display: flex;
+}
+
+.pokemon-image {
+  flex: 0 0 50%;
+  text-align: center;
+}
+
+.pokemon-image img {
+  max-width: 200px;
+}
+
+.pokemon-info {
+  flex: 0 0 50%;
+}
+
+.pokemon-info p {
+  margin: 10px 0;
+}
+
+.searchInput {
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+
+.teamLimitMessage {
+  background-color: #ffcccc;
+  color: #ff0000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+.addTeam {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.addTeam:hover {
+  background-color: #45a049;
+  color: white;
+}
+.pokemonItem {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  color: black;
+  border-radius: "5px";
+  width: "100%";
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.pokemon-list {
+  width: 60%;
+  max-width: 800px;
+}
+
+.pokemon-team {
+  width: 30%;
+  margin-left: 20px;
+  position: sticky;
+}
+
+.back {
+  margin-top: 90px;
+  display: block;
+}
