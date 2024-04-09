@@ -1,6 +1,6 @@
 # Clonez ce dépôt sur votre machine locale :
 
-git clone [https://github.com/votre-utilisateur/react-technical-test.git](https://github.com/yassinsaied/react-technical-test.git)
+git clone 
 
 # Accédez au répertoire du projet :
 
