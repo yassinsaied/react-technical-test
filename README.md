@@ -14,13 +14,13 @@ npm install
 
 npm start
 
-# J'ai integré les taches Prérequis :
+# Intégration des tâches Prérequises :
 
 - Rendre cliquable le nom des pokemons
 - Afficher des informations détaillées à propos d'un pokemon
 - Ajouter un champ recherche sur la liste des pokemons
 
-# J'ai integré les taches de Equipe de catégories pokémons:
+# Intégration des tâches Prérequises  de catégories pokémons:
 
 - Ajouter une équipe, modifiable
 - Stats sur l'équipe
