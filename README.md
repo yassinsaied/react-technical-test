@@ -20,7 +20,7 @@ npm start
 - Afficher des informations détaillées à propos d'un pokemon
 - Ajouter un champ recherche sur la liste des pokemons
 
-# Intégration des tâches Prérequises  de catégories pokémons:
+# Intégration des tâches de catégories pokémons:
 
 - Ajouter une équipe, modifiable
 - Stats sur l'équipe
